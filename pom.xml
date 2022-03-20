@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ca.sait</groupId>
-	<artifactId>JDBCLab7</artifactId>
+	<artifactId>JPALab7</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>JDBCLab7</name>
+	<name>JPALab7</name>
 
 	<properties>
 		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

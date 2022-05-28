@@ -1,4 +1,4 @@
-package ca.sait.jdbclab7.dataaccess;
+package ca.home.managingusers.dataaccess;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;

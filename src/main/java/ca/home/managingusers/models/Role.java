@@ -1,4 +1,4 @@
-package ca.sait.jdbclab7.models;
+package ca.home.managingusers.models;
 
 import java.io.Serializable;
 import java.util.List;

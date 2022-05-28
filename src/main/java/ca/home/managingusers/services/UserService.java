@@ -1,8 +1,8 @@
-package ca.sait.jdbclab7.services;
+package ca.home.managingusers.services;
 
-import ca.sait.jdbclab7.dataaccess.UserDB;
-import ca.sait.jdbclab7.models.Role;
-import ca.sait.jdbclab7.models.User;
+import ca.home.managingusers.dataaccess.UserDB;
+import ca.home.managingusers.models.Role;
+import ca.home.managingusers.models.User;
 import java.util.List;
 
 

@@ -1,8 +1,8 @@
-package ca.sait.jdbclab7.servlets;
+package ca.home.managingusers.servlets;
 
-import ca.sait.jdbclab7.models.Role;
-import ca.sait.jdbclab7.models.User;
-import ca.sait.jdbclab7.services.UserService;
+import ca.home.managingusers.models.Role;
+import ca.home.managingusers.models.User;
+import ca.home.managingusers.services.UserService;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;

@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ca.sait</groupId>
-	<artifactId>JPALab7</artifactId>
+	<artifactId>ManagingUsers</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>JPALab7</name>
+	<name>ManagingUsers</name>
 
 	<properties>
 		<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>

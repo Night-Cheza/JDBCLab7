@@ -1,6 +1,6 @@
-package ca.sait.jdbclab7.dataaccess;
+package ca.home.managingusers.dataaccess;
 
-import ca.sait.jdbclab7.models.Role;
+import ca.home.managingusers.models.Role;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;

@@ -1,4 +1,4 @@
-package ca.home.managingusers.models;
+package ca.sait.jdbclab7.models;
 
 import java.io.Serializable;
 import javax.persistence.*;

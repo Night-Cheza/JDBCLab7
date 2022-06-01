@@ -34,58 +34,34 @@
 						</th>
 					</tr>
 					<tr class="table-primary">
-						<th scope="col">
-							E-mail
-						</th>
+						<th scope="col"> 	E-mail </th>
 
-						<th scope="col">
-							First Name
-						</th>
+						<th scope="col"> 	First Name </th>
 
-						<th scope="col">
-							Last Name
-						</th>
+						<th scope="col"> 	Last Name </th>
 						
-						<th scope="col">
-							Role
-						</th>
+						<th scope="col"> 	Role </th>
 						
-						<th scope="col">
-							Active
-						</th>
+						<th scope="col"> 	Active </th>
 						
-						<th scope="col">
-							Edit
-						</th>
+						<th scope="col"> Edit </th>
 						
-						<th scope="col">
-							Delete
-						</th>
+						<th scope="col"> 	Delete </th>
 					</tr>
 				</thead>
 
 				<tbody>
 					<c:forEach var="user" items="${users}">
 						<tr class="table-info" scope="row">
-							<td name="email">
-								${user.email}
-							</td>
+							<td name="email"> ${user.email} </td>
 
-							<td name="firstName">
-								${user.firstName}
-							</td>
+							<td name="firstName"> ${user.firstName} </td>
 
-							<td name = "lastName">
-								${user.lastName}
-							</td>
+							<td name = "lastName"> ${user.lastName} </td>
 							
-							<td name="roleName">
-								${user.getRole().getRoleName()}
-							</td>
+							<td name="roleName"> ${user.getRole().getRoleName()} </td>
 							
-							<td name="active">
-								${user.active}
-							</td>
+							<td name="active"> ${user.active} </td>
 							
 							<td>
 								<form action="user" method="post">
